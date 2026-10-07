@@ -98,7 +98,7 @@ SELECT
     MIN(price) AS minimum_price,
     MAX(price) AS maximum_price,
     AVG(price) AS Average_price
-FROM raw.olist_order_items_dataset
+FROM raw.olist_order_items_dataset;
 
 
 WITH price_band_distribution AS
@@ -122,14 +122,28 @@ GROUP BY  price_band;
 
 
 ------------------------------------Geography and Category Variety----------------------------------------------
-SELECT * FROM raw.olist_products_dataset
+SELECT * FROM raw.olist_products_dataset;
 
 --Distinct Product Categories 
 SELECT 
     COUNT(DISTINCT product_category_name) AS total_categories
-FROM raw.olist_products_dataset
+FROM raw.olist_products_dataset;
 
 ---DISTINCT STATES 
 SELECT
     COUNT(DISTINCT customer_state) as total_states 
-FROM raw.olist_customers_dataset
+FROM raw.olist_customers_dataset;
+
+---TOP Highest Sales for each product
+SELECT *
+FROM (
+SELECT 
+    ot.product_id,
+    ot.order_id,
+    ot.price,
+    p.product_category_name,
+    ROW_NUMBER() OVER(PARTITION BY ot.product_id ORDER BY ot.Price DESC) Highest_sales_per_product
+FROM analysis.vw_order_items_clean ot  
+INNER JOIN analysis.vw_products_clean p  
+ON ot.product_id = p.product_id
+)t WHERE Highest_sales_per_product = 1;
