@@ -467,21 +467,19 @@ The Customer & Delivery page focuses on:
 
 # 🖼️ Project Screenshots
 
-Only a few screenshots are included to keep the repository clean and professional.
+## Power BI Dashboard
 
 ### 1. Executive Overview
 
-![Executive Overview](dashboards/Executive%20Overview.png)
-
+![Executive Overview](dashboards/executive_overview.png)
 
 ### 2. Customer & Delivery
 
-![Customer & Delivery](dashboards/Customer%20Delivery.png)
-
+![Customer & Delivery](dashboards/Screenshot%202026-10-07%20213208.png)
 
 ### 3. SQL Business Analysis
 
-![Alt Text](images_video\BQ4.png)
+![SQL Business Analysis](images_video/BQ4.png)
 
 ---
 
