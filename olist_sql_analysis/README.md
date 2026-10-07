@@ -463,8 +463,6 @@ The Customer & Delivery page focuses on:
 
 ### Dashboard Preview
 
-![Customer & Delivery](Screenshots/customer_delivery.png)
-
 ---
 
 # 🖼️ Project Screenshots
@@ -473,30 +471,17 @@ Only a few screenshots are included to keep the repository clean and professiona
 
 ### 1. Executive Overview
 
-![Alt Text](dashboards\executive_overview.png)
+![Executive Overview](dashboards/Executive%20Overview.png)
 
 
 ### 2. Customer & Delivery
 
-![Alt Text](dashboards\Screenshot 2026-10-07 213208.png)
+![Customer & Delivery](dashboards/Customer%20Delivery.png)
 
-Shows the complete second Power BI dashboard page.
 
 ### 3. SQL Business Analysis
 
-```text Screenshots/sql_analysis.png ```
-
-Shows one representative **SQL** business-analysis query and its results.
-
-Recommended query for this screenshot:
-
-**Late Delivery Rate by State**
-
-or
-
-**Monthly Seller Performance**
-
-Do not include screenshots of every **SQL** query.
+![Alt Text](images_video\BQ4.png)
 
 ---
 
