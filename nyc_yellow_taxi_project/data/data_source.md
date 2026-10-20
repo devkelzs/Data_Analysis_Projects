@@ -99,9 +99,6 @@ The following preparation steps were performed or planned as part of the project
 2. Converted the monthly Parquet files to CSV using Python and pandas.
 3. Imported the monthly CSV files into Microsoft SQL Server.
 4. Stored the monthly tables in the `raw` schema.
-5. Planned to combine the monthly tables into a single annual table.
-6. Planned to profile and validate the data before performing cleaning and business analysis.
-7. Planned to create SQL views for the final Power BI analysis.
 
 Cleaning decisions, data-quality findings, and transformations will be documented in the SQL scripts and project report.
 

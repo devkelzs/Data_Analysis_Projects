@@ -306,3 +306,17 @@ LEFT JOIN analysis.vw_sellers_clean s
 ORDER BY
     r.month_start,
     r.seller_rank;
+
+
+SELECT
+    YEAR(order_purchase_timestamp) AS sales_year,
+    MONTH(order_purchase_timestamp) AS sales_month,
+    SUM(oi.price) AS product_revenue
+FROM analysis.vw_orders_clean o
+INNER JOIN analysis.vw_order_items_clean oi
+    ON o.order_id = oi.order_id
+WHERE YEAR(order_purchase_timestamp) = 2018
+  AND MONTH(order_purchase_timestamp) = 10
+GROUP BY
+    YEAR(order_purchase_timestamp),
+    MONTH(order_purchase_timestamp);
