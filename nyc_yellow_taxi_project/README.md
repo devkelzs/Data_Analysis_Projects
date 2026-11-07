@@ -433,7 +433,7 @@ However, trip volume alone does **not** prove that a location has a taxi shortag
 
 ## Dashboard Image
 
-![Dashboard 2 — Demand & Geographic Analysis](powerbi_dashboards/Demand%20%26%20Geographic%20Analysis.png)
+![Dashboard 2 — Demand & Geographic Analysis](powerbi_dashboards/Screenshot%202026-11-06%20170735.png)
 
 # Dashboard 3 — Revenue & Payment Analytics
 
