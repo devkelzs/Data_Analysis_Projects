@@ -479,7 +479,7 @@ The view's column metadata was inspected using `INFORMATION_SCHEMA.COLUMNS`. The
 The following counts were confirmed:
 
 | Dataset | Row count |
-|---|---:|
+|---|54:|
 | Raw source view | 48,722,602 |
 | Clean analytical view | 48,722,602 |
 | Difference | 0 |

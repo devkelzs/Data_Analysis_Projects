@@ -102,3 +102,9 @@ SELECT * FROM raw.yellow_tripdata_2025_11
 UNION ALL
 SELECT * FROM raw.yellow_tripdata_2025_12;
 GO
+
+
+SELECT
+    SUM(total_trips) AS total_trips,
+    SUM(percentage_of_trips) AS total_percentage
+FROM analytics.vw_q2_dropoff_zone_demand;
