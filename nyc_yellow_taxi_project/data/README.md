@@ -378,9 +378,8 @@ Line chart showing month-over-month change.
 
 ## Dashboard Image
 
-Place the screenshot here:
 
-![Dashboard 1 — Executive Overview](powerbi_dashboards\Screenshot 2026-11-06 120428.png)
+![Dashboard 1 — Executive Overview](powerbi_dashboards/Screenshot%202026-11-06%20120428.png)
 
 # Dashboard 2 — Demand & Geographic Analysis
 
@@ -435,7 +434,7 @@ However, trip volume alone does **not** prove that a location has a taxi shortag
 
 ## Dashboard Image
 
-![Dashboard 2 — Demand & Geographic Analysis](powerbi_dashboards\Screenshot 2026-11-06 170735.png)
+![Dashboard 1 — Executive Overview](powerbi_dashboards/Screenshot%202026-11-06%20120428.png)
 
 
 # Dashboard 3 — Revenue & Payment Analytics
@@ -493,7 +492,7 @@ Therefore, the dashboard should be interpreted as **recorded trip charges/total 
 
 ## Dashboard Image
 
-![Dashboard 3 — Revenue & Payment Analytics](powerbi_dashboards\Revenue.png)
+![Dashboard 3 — Revenue & Payment Analytics](powerbi_dashboards/Revenue.png)
 
 
 # Dashboard 4 — Trip Characteristics & Speed Analysis
@@ -540,7 +539,7 @@ This dashboard examines the physical and temporal characteristics of taxi trips.
 
 ## Dashboard Image
 
-![Dashboard 4 — Trip Characteristics & Speed Analysis](powerbi_dashboards\Trip characteristics.png)
+![Dashboard 4 — Trip Characteristics & Speed Analysis](powerbi_dashboards/Trip%20characteristics.png)
 
 
 # Dashboard 5 — Vendor & Data Quality Analysis
@@ -601,7 +600,7 @@ Differences may reflect reporting systems, trip mix, data capture, and vendor co
 
 ## Dashboard Image
 
-![Dashboard 5 — Vendor & Data Quality Analysis](powerbi_dashboards\vendor.png)
+![Dashboard 5 — Vendor & Data Quality Analysis](powerbi_dashboards/vendor.png)
 
 
 # Key Findings Across the Project
