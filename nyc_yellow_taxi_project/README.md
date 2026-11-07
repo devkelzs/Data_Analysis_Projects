@@ -380,9 +380,7 @@ Line chart showing month-over-month change.
 
 Place the screenshot here:
 
-```text
-![Dashboard 1 — Executive Overview](powerbi_dashboards\Screenshot 2026-11-06 120428.png)
-```
+![Dashboard 1 — Executive Overview](powerbi_dashboards/Screenshot%202026-11-06%20120428.png)
 
 # Dashboard 2 — Demand & Geographic Analysis
 
